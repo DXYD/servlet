@@ -27,7 +27,7 @@ public class QuestionDelete extends HttpServlet {
             throwables.printStackTrace();
         }
 
-        req.getRequestDispatcher("/index.html").forward(req, resp);
+        req.getRequestDispatcher("/GL.jsp").forward(req, resp);
 
     }
 

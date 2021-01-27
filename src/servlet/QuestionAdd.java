@@ -35,6 +35,6 @@ public class QuestionAdd extends HttpServlet {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        req.getRequestDispatcher("/index.html").forward(req, resp);
+        req.getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 }

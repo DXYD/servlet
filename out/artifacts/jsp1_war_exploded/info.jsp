@@ -12,6 +12,7 @@
     <title>Title</title>
 </head>
 <body>
+<%@ include file="header.jsp" %>
 <table border="2px" align="center">
     <tr>
         <td>id编号</td>
@@ -48,5 +49,6 @@
         }
     %>
 </table>
+<%@ include file="footer.jsp" %>
 </body>
 </html>
