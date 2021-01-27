@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/myweb/QuestionAdd" method="get">
+    <table border="2" align="center">
+        <tr>
+            <td>题目：</td>
+            <td><input type="text" name="title"></td>
+        </tr>
+        <tr>
+            <td>A：</td>
+            <td><input type="text" name="questionA"></td>
+        </tr>
+        <tr>
+            <td>B：</td>
+            <td><input type="text" name="questionB"></td>
+        </tr>
+        <tr>
+            <td>C：</td>
+            <td><input type="text" name="questionC"></td>
+        </tr>
+        <tr>
+            <td>D：</td>
+            <td><input type="text" name="questionD"></td>
+        </tr>
+        <tr>
+            <td>答案：</td>
+            <td>
+                <input type="radio" name="answer" value="A">A
+                <input type="radio" name="answer" value="B">B
+                <input type="radio" name="answer" value="C">C
+                <input type="radio" name="answer" value="D">D
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="增加试题"></td>
+            <td><input type="reset" name="清空"></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
